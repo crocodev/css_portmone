@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, sans-serif;
+  margin-top: 40px;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/vintage-wood.jpg") no-repeat center top;
+}
+
+.wrapper {
+  width: 460px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.info {
+  background: #000;
+  color: #fff;
+  transform: rotate(-5deg) translate3d(0, 0, 0);
+}
+.info:hover {
+  transform: rotate(-7deg) translate3d(0, 0, 0);
+}
+
+.douban {
+  background: #fff;
+  transform: rotate(10deg) translate3d(0, 0, 0);
+  top: 30px;
+  right: 40px;
+}
+.douban:hover {
+  transform: rotate(12deg) translate3d(0, 0, 0);
+}
+
+.zhihu {
+  background: #fff;
+  transform: rotate(16deg) translate3d(0, 0, 0);
+  top: 120px;
+  right: 100px;
+}
+.zhihu:hover {
+  transform: rotate(18deg) translate3d(0, 0, 0);
+}
+
+.weibo {
+  background: #fff;
+  transform: rotate(16deg) translate3d(0, 0, 0);
+  top: 120px;
+  right: 100px;
+}
+.weibo:hover {
+  transform: rotate(18deg) translate3d(0, 0, 0);
+}
+
+.card {
+  border-radius: 11px;
+  box-shadow: 0px 0px 2px 0px black;
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 19px;
+  height: 320px;
+  line-height: 24px;
+  padding: 28px;
+  position: absolute;
+  transition: all 150ms ease-out;
+  width: 220px;
+}
+.card hr {
+  background: #fff;
+  border: none;
+  height: 1px;
+  margin-top: 22px;
+  position: relative;
+  width: 99%;
+}
+.card hr:after {
+  content: ".";
+  position: absolute;
+  right: -7px;
+  top: -18px;
+}
