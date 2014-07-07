@@ -44,9 +44,25 @@ body {
   transform: rotate(16deg) translate3d(0, 0, 0);
   top: 120px;
   right: 100px;
+  background-image: url("../img/deadmen.jpg");
+}
+
+.wrapper .weibo {
+  width: 312px;
+  height: 445px;
 }
 .weibo:hover {
-  transform: rotate(18deg) translate3d(0, 0, 0);
+  transform: rotate(25deg) translate3d(0, 0, 0);
+}
+
+.weibo .hidden_text{
+    color: #f00;
+    margin-top: 100px;
+    display: none;
+}
+
+.weibo:hover .hidden_text {
+    display: block;
 }
 
 .card {
